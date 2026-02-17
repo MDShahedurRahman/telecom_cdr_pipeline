@@ -257,3 +257,16 @@ This pipeline supports analytics such as:
 - What percentage of calls are international?
 
 ---
+
+## 🧠 Concepts Demonstrated
+
+- End-to-End Telecom ETL Pipeline Development
+- Spark DataFrame Transformations
+- Parquet-based Data Lake Storage
+- Medallion Architecture (Bronze/Silver/Gold)
+- Star Schema Data Modeling
+- Telecom Anomaly Detection Engineering
+- Business KPI Query Development
+- Git Commit Discipline for Data Projects
+
+---
