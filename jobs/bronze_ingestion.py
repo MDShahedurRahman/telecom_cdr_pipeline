@@ -10,5 +10,6 @@ def ingest_call_records(spark, input_file, bronze_path):
     )
 
     df.write.mode("overwrite").parquet(bronze_path)
+    print("✅ Bronze Layer Completed")
 
     return df
