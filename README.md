@@ -7,3 +7,25 @@ This project processes raw telecom call transaction data from CSV, cleans and tr
 It is designed as a **portfolio-quality Data Engineering project** demonstrating real-world ETL workflows, scalable lakehouse design, and analytics-ready outputs.
 
 ---
+
+## 🚀 Project Overview
+
+Telecom companies generate billions of call records daily.  
+These records are used for:
+
+- Revenue reporting  
+- Customer usage analytics  
+- Fraud and anomaly detection  
+- Operational monitoring  
+
+Raw call transaction data must be transformed into structured, analytics-ready datasets.
+
+This pipeline performs:
+
+- Raw data ingestion into a Data Lake (Bronze)
+- Data cleaning and standardization (Silver)
+- Call anomaly detection (Long calls, International calls)
+- Star Schema modeling for analytics (Gold)
+- Business KPI queries for insights
+
+---
