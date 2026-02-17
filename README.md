@@ -246,3 +246,14 @@ output/
 ```
 
 ---
+
+## 📊 Example Business Questions Answered
+
+This pipeline supports analytics such as:
+
+- Which customers spend the most on calls?
+- What call types generate the highest revenue?
+- How many suspicious long-duration calls occurred?
+- What percentage of calls are international?
+
+---
