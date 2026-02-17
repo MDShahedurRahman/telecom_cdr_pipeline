@@ -29,3 +29,21 @@ This pipeline performs:
 - Business KPI queries for insights
 
 ---
+
+## 🏗 Pipeline Architecture (Medallion Design)
+
+```
+Raw CSV Call Records
+        ↓
+Bronze Layer (Raw Parquet)
+        ↓
+Silver Layer (Cleaned + Standardized Parquet)
+        ↓
+Anomaly Detection Layer (Flagged Calls)
+        ↓
+Gold Layer (Star Schema Tables)
+        ↓
+Business Queries + Telecom KPI Reports
+```
+
+---
