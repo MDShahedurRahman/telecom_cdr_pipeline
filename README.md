@@ -80,3 +80,20 @@ telecom_cdr_pipeline/
 ```
 
 ---
+
+## 📌 Data Source
+
+The pipeline uses a sample telecom dataset:
+
+`data/call_records.csv`
+
+Example:
+
+```csv
+call_id,customer_id,customer_name,call_type,duration_minutes,call_cost,call_date,city,country
+1,C001,John Smith,Local,15,5,2025-01-05,New York,USA
+2,C002,Amina Rahman,International,45,25,2025-01-06,Boston,USA
+3,C003,Sarah Lee,Local,200,60,2025-01-08,Chicago,USA
+```
+
+---
