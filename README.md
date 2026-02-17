@@ -211,3 +211,15 @@ Long Calls Detected → 1
 ```
 
 ---
+
+## ▶️ How to Run the Project
+
+---
+
+### 1. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
