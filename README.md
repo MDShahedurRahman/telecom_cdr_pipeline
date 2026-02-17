@@ -167,3 +167,27 @@ output/silver/anomaly_flagged/
 ```
 
 ---
+
+### 🥇 Gold Layer: Star Schema Modeling
+
+**File:** `jobs/gold_star_schema.py`
+
+Creates analytics-ready tables:
+
+#### Dimension Tables
+- `dim_customer`
+- `dim_call_type`
+
+#### Fact Table
+- `fact_calls`
+
+Output:
+
+```
+output/gold/
+   ├── dim_customer/
+   ├── dim_call_type/
+   └── fact_calls/
+```
+
+---
