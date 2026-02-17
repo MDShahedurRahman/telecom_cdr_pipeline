@@ -27,6 +27,9 @@ def main():
     print("\n📊 Top Customers by Call Spending:")
     top_customers_by_call_cost(anomaly_df).show()
 
+    print("\n📞 Revenue by Call Type:")
+    revenue_by_call_type(anomaly_df).show()
+
 
 if __name__ == "__main__":
     main()
