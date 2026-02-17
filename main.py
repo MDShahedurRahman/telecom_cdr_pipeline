@@ -20,6 +20,7 @@ def main():
 
     bronze_df = ingest_call_records(spark, RAW_FILE, BRONZE_PATH)
     silver_df = clean_call_data(bronze_df, SILVER_PATH)
+    anomaly_df = detect_anomalies(silver_df, ANOMALY_PATH)
 
 
 if __name__ == "__main__":
