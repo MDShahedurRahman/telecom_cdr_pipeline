@@ -97,3 +97,16 @@ call_id,customer_id,customer_name,call_type,duration_minutes,call_cost,call_date
 ```
 
 ---
+
+
+## ⚙️ Technologies Used
+
+- **Python**
+- **PySpark**
+- **Parquet Storage Format**
+- **Medallion Data Lake Architecture**
+- **Anomaly Detection Engineering**
+- **Star Schema Data Modeling**
+- **Telecom KPI Analytics Queries**
+
+---
