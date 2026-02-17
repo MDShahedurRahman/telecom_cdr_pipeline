@@ -223,3 +223,26 @@ pip install -r requirements.txt
 ```
 
 ---
+
+### 2. Execute the Full Pipeline
+
+```bash
+python main.py
+```
+
+---
+
+### 3. Output Layers Generated
+
+After execution:
+
+```
+output/
+   bronze/
+   silver/
+   silver/anomaly_flagged/
+   gold/
+   reports/
+```
+
+---
