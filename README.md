@@ -110,3 +110,25 @@ call_id,customer_id,customer_name,call_type,duration_minutes,call_cost,call_date
 - **Telecom KPI Analytics Queries**
 
 ---
+
+## 🚀 Pipeline Jobs
+
+---
+
+### 🥉 Bronze Layer: Raw Data Ingestion
+
+**File:** `jobs/bronze_ingestion.py`
+
+Responsibilities:
+
+- Read raw call transaction CSV data
+- Apply schema validation
+- Store raw records in Parquet format
+
+Output:
+
+```
+output/bronze/
+```
+
+---
