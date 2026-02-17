@@ -98,7 +98,6 @@ call_id,customer_id,customer_name,call_type,duration_minutes,call_cost,call_date
 
 ---
 
-
 ## ⚙️ Technologies Used
 
 - **Python**
@@ -270,3 +269,61 @@ This pipeline supports analytics such as:
 - Git Commit Discipline for Data Projects
 
 ---
+
+## 📝 Git Commit Strategy (50 Commits)
+
+This project is structured for step-by-step GitHub commits:
+
+### Phase 1: Setup & Utilities (1–10)
+- Repo scaffolding
+- Spark session setup
+- Schema definitions
+- Bronze ingestion job
+
+### Phase 2: Silver Cleaning Layer (11–25)
+- Data cleaning logic
+- Null handling
+- Date conversions
+- Silver persistence
+
+### Phase 3: Anomaly Detection Layer (26–35)
+- Long call detection
+- International call flagging
+- Anomaly reporting
+
+### Phase 4: Gold Star Schema Layer (36–45)
+- Dimension table creation
+- Fact table creation
+- Gold persistence and validation
+
+### Phase 5: Business Queries & Reporting (46–50)
+- KPI analytics queries
+- Query integration into pipeline
+- Final documentation and polish
+
+---
+
+## 📌 Future Enhancements
+
+- Integrate AWS S3 storage backend
+- Load Gold tables into Redshift or Snowflake
+- Add orchestration using Apache Airflow
+- Implement incremental call record processing
+- Add dashboard visualization using Tableau/Power BI
+- Extend anomaly detection using ML models
+
+---
+
+## 👨‍💻 Author
+
+**Md Shahedur Rahman**  
+Master’s in Computer Science (NYU)  
+Data Engineering | PySpark | SQL | Cloud Pipelines  
+
+---
+
+## ⭐ Project Goal
+
+This project demonstrates how telecom call transaction data can be transformed into analytics-ready datasets using modern Data Engineering best practices.
+
+Feel free to fork and expand this into a full-scale cloud telecom analytics platform.
