@@ -191,3 +191,23 @@ output/gold/
 ```
 
 ---
+
+### 📊 Business Queries & Telecom KPIs
+
+**File:** `jobs/business_queries.py`
+
+Key business insights generated:
+
+- Top customers by call spending
+- Revenue breakdown by call type
+- Anomaly call distribution
+
+Example KPI Output:
+
+```
+International Calls → $45 Revenue
+Local Calls → $68 Revenue
+Long Calls Detected → 1
+```
+
+---
