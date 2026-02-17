@@ -7,4 +7,6 @@ def clean_call_data(df, silver_path):
         .dropna() \
         .withColumn("call_date", to_date(col("call_date")))
 
+    cleaned_df.write.mode("overwrite").parquet(silver_path)
+
     return cleaned_df
