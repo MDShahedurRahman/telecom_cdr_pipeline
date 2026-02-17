@@ -1,2 +1,9 @@
-# telecom_cdr_pipeline
-A complete Telecom Call Detail Records (CDR) Analytics Pipeline using:  Bronze → Silver → Gold architecture  Parquet Lakehouse storage  Star Schema modeling  Fraud/Anomaly detection (high call duration, international spikes)  Business KPI queries  This is a real-world dataset type used by telecom companies.
+# Telecom Call Data Engineering Pipeline (PySpark)
+
+A complete **Telecom Call Detail Records (CDR) Data Engineering Pipeline** built using **PySpark** and the modern **Medallion Architecture (Bronze → Silver → Gold)**.
+
+This project processes raw telecom call transaction data from CSV, cleans and transforms it into Parquet format, applies anomaly detection rules, builds a Star Schema model, and generates business KPIs for telecom analytics.
+
+It is designed as a **portfolio-quality Data Engineering project** demonstrating real-world ETL workflows, scalable lakehouse design, and analytics-ready outputs.
+
+---
