@@ -8,4 +8,14 @@ def build_star_schema(df, gold_path):
         "call_type"
     ).distinct()
 
+    fact_calls = df.select(
+        "call_id",
+        "customer_id",
+        "call_type",
+        "call_date",
+        "duration_minutes",
+        "call_cost",
+        "anomaly_flag"
+    )
+
     return fact_calls
