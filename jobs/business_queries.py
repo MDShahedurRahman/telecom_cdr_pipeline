@@ -11,3 +11,9 @@ def revenue_by_call_type(df):
     return df.groupBy("call_type") \
         .agg(sum("call_cost").alias("total_revenue")) \
         .orderBy(desc("total_revenue"))
+
+
+def anomaly_breakdown(df):
+    return df.groupBy("anomaly_flag") \
+        .agg(count("*").alias("call_count")) \
+        .orderBy(desc("call_count"))
