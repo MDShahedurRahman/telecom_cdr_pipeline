@@ -30,6 +30,12 @@ def main():
     print("\n📞 Revenue by Call Type:")
     revenue_by_call_type(anomaly_df).show()
 
+    print("\n🚨 Anomaly Breakdown:")
+    anomaly_breakdown(anomaly_df).show()
+
+    spark.stop()
+    print("\n✅ Telecom Pipeline Completed Successfully!\n")
+
 
 if __name__ == "__main__":
     main()
