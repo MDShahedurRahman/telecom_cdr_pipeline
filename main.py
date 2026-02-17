@@ -24,6 +24,9 @@ def main():
 
     build_star_schema(anomaly_df, GOLD_PATH)
 
+    print("\n📊 Top Customers by Call Spending:")
+    top_customers_by_call_cost(anomaly_df).show()
+
 
 if __name__ == "__main__":
     main()
