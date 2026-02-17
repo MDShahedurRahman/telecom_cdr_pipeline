@@ -19,6 +19,7 @@ def main():
     print("\n--- Running Telecom CDR Pipeline ---\n")
 
     bronze_df = ingest_call_records(spark, RAW_FILE, BRONZE_PATH)
+    silver_df = clean_call_data(bronze_df, SILVER_PATH)
 
 
 if __name__ == "__main__":
