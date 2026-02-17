@@ -132,3 +132,21 @@ output/bronze/
 ```
 
 ---
+
+### 🥈 Silver Layer: Data Cleaning & Transformation
+
+**File:** `jobs/silver_cleaning.py`
+
+Transformations applied:
+
+- Remove duplicate call records
+- Handle missing values
+- Convert call_date into proper DateType
+
+Output:
+
+```
+output/silver/
+```
+
+---
