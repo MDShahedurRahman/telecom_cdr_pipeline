@@ -18,4 +18,8 @@ def build_star_schema(df, gold_path):
         "anomaly_flag"
     )
 
+    dim_customer.write.mode("overwrite").parquet(gold_path + "/dim_customer")
+
+    print("✅ Gold Layer Completed: Star Schema Created")
+
     return fact_calls
