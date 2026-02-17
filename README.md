@@ -270,39 +270,6 @@ This pipeline supports analytics such as:
 
 ---
 
-## 📝 Git Commit Strategy (50 Commits)
-
-This project is structured for step-by-step GitHub commits:
-
-### Phase 1: Setup & Utilities (1–10)
-- Repo scaffolding
-- Spark session setup
-- Schema definitions
-- Bronze ingestion job
-
-### Phase 2: Silver Cleaning Layer (11–25)
-- Data cleaning logic
-- Null handling
-- Date conversions
-- Silver persistence
-
-### Phase 3: Anomaly Detection Layer (26–35)
-- Long call detection
-- International call flagging
-- Anomaly reporting
-
-### Phase 4: Gold Star Schema Layer (36–45)
-- Dimension table creation
-- Fact table creation
-- Gold persistence and validation
-
-### Phase 5: Business Queries & Reporting (46–50)
-- KPI analytics queries
-- Query integration into pipeline
-- Final documentation and polish
-
----
-
 ## 📌 Future Enhancements
 
 - Integrate AWS S3 storage backend
