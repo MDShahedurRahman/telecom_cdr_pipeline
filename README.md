@@ -150,3 +150,20 @@ output/silver/
 ```
 
 ---
+
+### 🚨 Anomaly Detection Layer
+
+**File:** `jobs/anomaly_detection.py`
+
+Flags suspicious calls such as:
+
+- Long duration calls (> 120 minutes)
+- International calls (potential fraud/spike)
+
+Output:
+
+```
+output/silver/anomaly_flagged/
+```
+
+---
