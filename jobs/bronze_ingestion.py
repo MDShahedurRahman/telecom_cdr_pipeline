@@ -9,4 +9,6 @@ def ingest_call_records(spark, input_file, bronze_path):
         schema=cdr_schema()
     )
 
+    df.write.mode("overwrite").parquet(bronze_path)
+
     return df
