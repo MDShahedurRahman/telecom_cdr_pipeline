@@ -16,6 +16,10 @@ from jobs.business_queries import (
 def main():
     spark = get_spark_session()
 
+    print("\n--- Running Telecom CDR Pipeline ---\n")
+
+    bronze_df = ingest_call_records(spark, RAW_FILE, BRONZE_PATH)
+
 
 if __name__ == "__main__":
     main()
