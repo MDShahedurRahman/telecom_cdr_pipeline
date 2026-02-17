@@ -8,5 +8,6 @@ def clean_call_data(df, silver_path):
         .withColumn("call_date", to_date(col("call_date")))
 
     cleaned_df.write.mode("overwrite").parquet(silver_path)
+    print("✅ Silver Layer Completed")
 
     return cleaned_df
