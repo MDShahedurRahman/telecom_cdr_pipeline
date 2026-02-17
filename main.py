@@ -22,6 +22,8 @@ def main():
     silver_df = clean_call_data(bronze_df, SILVER_PATH)
     anomaly_df = detect_anomalies(silver_df, ANOMALY_PATH)
 
+    build_star_schema(anomaly_df, GOLD_PATH)
+
 
 if __name__ == "__main__":
     main()
