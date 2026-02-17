@@ -47,3 +47,36 @@ Business Queries + Telecom KPI Reports
 ```
 
 ---
+
+## 📂 Project Structure
+
+```
+telecom_cdr_pipeline/
+│
+├── main.py
+├── config.py
+├── requirements.txt
+│
+├── data/
+│   └── call_records.csv
+│
+├── jobs/
+│   ├── bronze_ingestion.py
+│   ├── silver_cleaning.py
+│   ├── anomaly_detection.py
+│   ├── gold_star_schema.py
+│   └── business_queries.py
+│
+├── utils/
+│   ├── spark_session.py
+│   ├── schema_definitions.py
+│   └── helpers.py
+│
+└── output/
+    ├── bronze/
+    ├── silver/
+    ├── gold/
+    └── reports/
+```
+
+---
