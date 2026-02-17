@@ -22,4 +22,6 @@ def build_star_schema(df, gold_path):
     dim_call_type.write.mode("overwrite").parquet(gold_path + "/dim_call_type")
     fact_calls.write.mode("overwrite").parquet(gold_path + "/fact_calls")
 
+    print("✅ Gold Layer Completed: Star Schema Created")
+
     return fact_calls
