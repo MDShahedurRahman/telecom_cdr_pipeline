@@ -11,5 +11,6 @@ def detect_anomalies(df, anomaly_path):
     )
 
     anomaly_df.write.mode("overwrite").parquet(anomaly_path)
+    print("🚨 Anomaly Detection Completed")
 
     return anomaly_df
